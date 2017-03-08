@@ -344,5 +344,80 @@
 # user_input = gets.chomp.downcase
 # puts 'yes yeah'.include?(user_input)
 
-user_input = gets.chomp.downcase
-puts user_input.include?('yes')
+# user_input = gets.chomp.downcase
+# puts user_input.include?('yes')
+
+# pets = ['cat', 'dog', 'fish', 'lizard']
+
+# my_pets = pets[2, 3]
+
+# my_pets.pop
+
+# puts my_pets.inspect
+
+# # puts "I have a pet #{my_pets[0]} and a pet #{my_pets[1]}!"
+
+# pets = ['cat', 'dog', 'fish', 'lizard']
+# my_pets = pets[2..3]
+# my_pets.pop
+
+# my_pets.push(pets[1])
+# puts my_pets.inspect
+
+# colors = ['red', 'yellow', 'purple', 'green']
+
+# colors.each { |color| puts "I'm color #{color}!."}
+
+# numbers = [1, 2, 3, 4, 5]
+
+# double_numbers = numbers.map { |number| number * 2}
+
+# p double_numbers
+
+# numbers = [5, 9, 21, 26, 39]
+
+# divisible_by_three = numbers.select { |number| number % 3 == 0 }
+
+# p divisible_by_three
+
+# array1 = [1, 5, 9]
+# array2 = [1, 9, 5]
+
+# puts array1 == array2 ? 'match!' : 'not match!'
+
+# type  color mileage
+# sedan blue  80_000
+
+# car = {type: 'sedan', color: 'blue', mileage: 80_000}
+
+# car[:year] = 2003
+
+# car.delete(:mileage)
+
+# color = car[:color]
+# puts color
+
+# p car
+
+# numbers = {
+#   high:   100,
+#   medium: 50,
+#   low:    10
+# }
+
+# numbers.each { |key, value| puts "A #{key} number is #{value}."}
+
+# half_numbers = numbers.map { |key, value| value / 2 }
+
+# p half_numbers
+
+# low_numbers = numbers.select! { |key, value| value < 25 }
+
+# p numbers
+# p low_numbers
+
+car = {
+  car: {type: 'sedan', color: 'blue', year: 2003}, 
+  truck: {type: 'pickup', color: 'red', year: 1998}
+}
+
